@@ -8,6 +8,8 @@
 2. 使用 Github 的模板功能，创建一个新的仓库，即在本仓库的右上角点击 `Use this template`，然后在新仓库中 clone 代码。
 3. 打开 vscode，打开项目根目录
 4. 点击左下角的 `><` 图标，选择 `Reopen in Container`
+5. 使用 `ng new` 之前需要删除 `README.md` 文件，否则会报错
+6. 使用 `ng new <Your project name> --force --directory .` 创建一个新的 Angular 项目
 
 ## 配置说明
 
