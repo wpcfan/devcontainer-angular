@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node-postgres
 {
-  "name": "Node.js & PostgreSQL",
+  "name": "Angular",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
@@ -11,7 +11,7 @@
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // This can be used to network with other containers or with the host.
-  "forwardPorts": [3000, 5432, 8081],
+  "forwardPorts": [4000],
 
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "yarn install",
@@ -24,9 +24,12 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "ms-vscode.vscode-typescript-next",
-        "ms-vscode.vscode-node-debug2",
-        "ashinzekene.nestjs",
-        "AbhijoyBasak.nestjs-files"
+        "PKief.material-icon-theme",
+        "Mikael.Angular-BeastCode",
+        "alexiv.vscode-angular2-files",
+        "Angular.ng-template",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
       ]
     }
   }

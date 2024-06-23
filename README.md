@@ -1,6 +1,6 @@
-# 适合于 Nestjs 开发的 devcontainer 配置
+# 适合于 Angular 开发的 devcontainer 配置
 
-这是一个适合于 Nestjs 开发的 devcontainer 配置，可以在 vscode 中使用 devcontainer 插件直接启动一个开发环境。 已经包含 `nodejs`、`typescript`、`nest`、`PostgreSQL`、`adminer` 等常用工具和服务。
+这是一个适合于 Angular 开发的 devcontainer 配置，可以在 vscode 中使用 devcontainer 插件直接启动一个开发环境。 已经包含 `Angular CLI` 和 `JSON Server` 等常用工具和服务。
 
 ## 使用方法
 
@@ -19,18 +19,13 @@
 
 - `nodejs`：nodejs 环境
 - `typescript`：typescript 编译环境
-- `nest`：nest 框架
-- `PostgreSQL`：数据库
-- `adminer`：数据库管理工具
 
 ## 运行端口
 
-- `3000`：nest 服务
-- `8081`：adminer
-- `5432`：PostgreSQL
+- `4000`：Angular 服务
 
 ## 注意事项
 
 - 请确保安装了 Docker Desktop
 - 请确保安装了 vscode 插件：Remote - Containers
-- 请避免端口冲突，如有冲突请修改 `docker-compose.yml` 中的端口映射，本项目默认暴露端口为 `3000`、`8081`、`5432`
+- 请避免端口冲突，如有冲突请修改 `docker-compose.yml` 中的端口映射，本项目默认暴露端口为 `4000`
